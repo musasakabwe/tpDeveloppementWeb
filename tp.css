@@ -8,6 +8,7 @@ body {
     height: fit-content;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 23px 30px;
 }
 
@@ -96,4 +97,63 @@ body {
     margin: 23px 30px;
     font-size: 18px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 750px){
+
+    body {
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main img{
+        width: 70%;
+    }
+
+    .parcours, .viespirituelle, .cursus, .objectif{
+        margin-bottom: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+    body {
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .main{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main img{
+        width: 70%;
+    }
+
+    .parcours, .viespirituelle, .cursus, .objectif{
+        margin-bottom: 50px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
